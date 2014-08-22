@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Cowrie.Modules.HomeAndGardensDetails {
+namespace Cowrie.Modules.HomeAndGardenDetails {
     
     
-    public partial class HomeAndGardensDetails {
+    public partial class HomeAndGardenDetails {
         
         /// <summary>
         /// Image1 control.

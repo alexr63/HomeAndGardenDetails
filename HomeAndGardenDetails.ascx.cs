@@ -5,9 +5,9 @@ using DotNetNuke.Entities.Modules;
 using DotNetNuke.Services.Exceptions;
 using SelectedHotelsModel;
 
-namespace Cowrie.Modules.HomeAndGardensDetails
+namespace Cowrie.Modules.HomeAndGardenDetails
 {
-    public partial class HomeAndGardensDetails : PortalModuleBase
+    public partial class HomeAndGardenDetails : PortalModuleBase
     {
         public HomeAndGarden product;
 

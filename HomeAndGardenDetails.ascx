@@ -1,8 +1,8 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="HomeAndGardensDetails.ascx.cs"
-    Inherits=" Cowrie.Modules.HomeAndGardensDetails.HomeAndGardensDetails" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="HomeAndGardenDetails.ascx.cs"
+    Inherits=" Cowrie.Modules.HomeAndGardenDetails.HomeAndGardenDetails" %>
 <%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
-<script src='<%#ResolveUrl("~/DesktopModules/HomeAndGardensDetails/Scripts/fancybox/jquery.fancybox-1.3.4.js")%>' type="text/javascript"></script>
-<link href='<%#ResolveUrl("~/DesktopModules/HomeAndGardensDetails/Scripts/fancybox/jquery.fancybox-1.3.4.css")%>' type="text/css" rel="stylesheet" />
+<script src='<%#ResolveUrl("~/DesktopModules/HomeAndGardenDetails/Scripts/fancybox/jquery.fancybox-1.3.4.js")%>' type="text/javascript"></script>
+<link href='<%#ResolveUrl("~/DesktopModules/HomeAndGardenDetails/Scripts/fancybox/jquery.fancybox-1.3.4.css")%>' type="text/css" rel="stylesheet" />
 <script type="text/javascript">
     $(document).ready(function () {
         $("a.sfLightBox").fancybox();

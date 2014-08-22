@@ -10,8 +10,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HomeAndGardensDetails</RootNamespace>
-    <AssemblyName>HomeAndGardensDetails</AssemblyName>
+    <RootNamespace>HomeAndGardenDetails</RootNamespace>
+    <AssemblyName>HomeAndGardenDetails</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>4.0</OldToolsVersion>
@@ -148,7 +148,9 @@
     <Content Include="Scripts\fancybox\jquery.fancybox-1.3.4.pack.js" />
     <Content Include="Scripts\fancybox\jquery.mousewheel-3.0.4.pack.js" />
     <Content Include="Web.Config" />
-    <Content Include="HomeAndGardenDetails.dnn" />
+    <Content Include="HomeAndGardenDetails.dnn">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.Debug.Config">
       <DependentUpon>Web.Config</DependentUpon>
     </None>
@@ -189,9 +191,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>28728</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://selectedhot.local/DesktopModules/HotelDetails</IISUrl>
+          <IISUrl>http://selectedhot.local/DesktopModules/HomeAndGardenDetails</IISUrl>
           <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
           <IISAppRootUrl>http://selectedhot.local</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
